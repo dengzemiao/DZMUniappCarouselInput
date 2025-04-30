@@ -400,7 +400,7 @@ export default {
     },
     // 输入框回车
     onConfirm(e) {
-      this.$emit('onSearch', e.target.value)
+      this.$emit('onSearch', e)
     }
   }
 }
